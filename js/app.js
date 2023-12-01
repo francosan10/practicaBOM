@@ -12,6 +12,7 @@ function saludar() {
 // setTimeout(()=>{
 //     document.write('<p>Hola Mundo nuevo 🌎</p>');
 // }, 3000);
+
 let contador = 1;
 const idSetInterval = setInterval(saludar, 2000); // su objetivo es ejecutar una funcion en determinado tiempo
 console.log(idSetInterval)
